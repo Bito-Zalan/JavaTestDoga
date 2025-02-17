@@ -1,7 +1,9 @@
 package hu.szamalk;
 
+import hu.szamalk.idomok.FaIdom;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        FaIdom gomb1 = new FaIdom(5,2.5);
     }
 }
